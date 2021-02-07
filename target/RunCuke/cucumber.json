@@ -1,0 +1,237 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9451992200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "As a user all search functionality fields accessible successfully",
+        "description": "",
+        "id": "home-page-search-functionality;as-a-user-all-search-functionality-fields-accessible-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 823142700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 260499600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "Homestef.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129220500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"QA Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "Homestef.iEnterJobTitle(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118972600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter location \"Pinner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pinner",
+                  "offset": 18
+                }
+              ],
+              "location": "Homestef.iEnterLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152347000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"75\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "75",
+                  "offset": 19
+                }
+              ],
+              "location": "Homestef.iSelectDistance(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146177700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I handle Iframe",
+            "match": {
+              "location": "Homestef.iHandleIframe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288686900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on more options",
+            "match": {
+              "location": "Homestef.iClickOnMoreOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330080600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salary min \"35000\" and \"37000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35000",
+                  "offset": 20
+                },
+                {
+                  "val": "37000",
+                  "offset": 32
+                }
+              ],
+              "location": "Homestef.iEnterSalaryMinAnd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122629700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salary type \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 22
+                }
+              ],
+              "location": "Homestef.iSelectSalaryType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223361000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select job type \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 19
+                }
+              ],
+              "location": "Homestef.iSelectJobType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5112220500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on find jobs button",
+            "match": {
+              "location": "Homestef.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10890209500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see result with keyword \"\u003cresult\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresult\u003e",
+                  "offset": 45
+                }
+              ],
+              "location": "Homestef.iShouldBeAbleToSeeResultWithKeyword(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page search functionality",
+    "description": "",
+    "id": "home-page-search-functionality",
+    "keyword": "Feature",
+    "uri": "./src/test/java/uk/co/cvlibrary/resources/featurefile/home.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
